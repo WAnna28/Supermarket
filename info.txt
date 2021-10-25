@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "server=(localdb)\mssqllocaldb;Database=Supermarket;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -d -c ApplicationDbContext --context-namespace Supermarket.Dal.EfStructures --context-dir EfStructures --no-onconfiguring -n Supermarket.Model.Entities -o ..\Supermarket.Model\Entities -f
